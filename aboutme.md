@@ -1,16 +1,11 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I'm currently in my gap year and looking for a short-term job or intern opportunity for the next five months (08-01-2018 ~ 12-31-2018)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+**Research interests**:
+Reinforcement Learning, Meta-Learning, Sequential decision making, graphical models, interpretable ML. Applications in healthcare, biology, medicine, natural language and general AI.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Education**:
