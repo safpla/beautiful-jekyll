@@ -64,7 +64,7 @@ We proposed an self-attention based sequence labeling model and applied it to a 
 
 ***Architecture***
 
-<img src="/img/t2t/architecture.png" width="60%" height="50%">
+<img src="/img/t2t/architecture.png" width="70%" height=60%">
 
 >*Figure 5: The model has N idential layers (each contains a self-attention sub-layer and a feed forward sub-layer), a softmax classification layer with feed back mechanism (green arrows), and an object memory to store recognized entities (red arrows) and maintain global consistence (blue arrows).*
 
@@ -74,8 +74,11 @@ We proposed an self-attention based sequence labeling model and applied it to a 
 
 >*Figure 6: Compared with two baselines. (Dong et al, 2016. "Character-Based LSTM-CRT with Radical-Level Features for Chinese Named Entity Recognition." Lecture Notes in Computer Science)*
 
+# Document Classification with Paragraph Reasoning and Hierarchical Supervision {#focus}
+Deeplycurious.ai, Beijing, 2017.9-2018.2
 
-# Focus {#focus}
+***Abstract***
+
 
 
 
