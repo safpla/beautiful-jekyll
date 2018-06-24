@@ -3,15 +3,8 @@ layout: page
 title: Projects
 subtitle: AutoLoss, Focus.
 ---
-<!--
-## Projects by themes
-
-* [autoLoss](#autoLoss)
-* [focus](#focus)
---> 
-
-
-## AutoLoss {#autoLoss}
+{#autoLoss}
+## AutoLoss
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
 
 **Abstract**
@@ -36,6 +29,8 @@ At each training step, meta-controller tells the task model whether to minimize 
 **2. Design the optimization schedule of GAN on MNIST dataset**
 
 At each training step, meta-controller tells the task model whether to update the discriminator or to update the generator. Baseline models are vanilla GAN with pre-define ratio between updating steps of discriminator and generator. 
+
+{#t2t}
 
 <img src="/img/AutoLoss/GAN_MNIST.PNG" width="100%" height="20%">
 >*Figure 3: The training progress (<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a> vs. epochs) of four best performed baselines compared with AutoLoss. If an instance does not improve for 20 Epochs, we terminate its training and regard it as converged.*
