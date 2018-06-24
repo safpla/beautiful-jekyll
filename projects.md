@@ -85,8 +85,7 @@ In document classification tasks, sometimes we need to deal with documnets that 
 
 <img src="/img/focus/architecture.png" width="80%" height="40%">
 
->*Figure 7: The architecture of our model. The paragragh level network is simply a max pooling layer. The reasoning module here is a 2-layer fully-connected network. We also have label information about each sentence. To exploit this, we provide supervision not only at document level, but also at sentence level, i.e. the objective function is a linear combination of document level loss and sentence level loss.
-
+>*Figure 7: The architecture of our model. The paragragh level network is simply a max pooling layer. The reasoning module here is a 2-layer fully-connected network. We also have label information about each sentence. To exploit this, we provide supervision not only at document level, but also at sentence level, i.e. the objective function is a linear combination of document level loss and sentence level loss.*
 
 
 [Paper]: /paper/autoLoss.pdf
