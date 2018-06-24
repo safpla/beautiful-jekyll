@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+subtitle: AutoLoss, Focus
 ---
 <!--
 ## Projects by themes
@@ -10,7 +11,7 @@ title: Projects
 --> 
 
 
-# **AutoLoss** {#autoLoss}
+## AutoLoss {#autoLoss}
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
 
 **Abstract**
@@ -51,7 +52,7 @@ We did three set of experiments to evaluate the transferability of our meta-cont
 
 *Figure 4: (a) Comparing the MLP classification results for the data transfer experiments. DGS represents Dense Grid Search. (b) Comparing the final convergence (in term of <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a>) of randomly sampled DCGAN architectures trained with and without a trained meta-controller. Clearly, we see AutoLoss outperforms DCGAN in 16 out of 20 architectures. (c) The training progress comparison of a vanilla GAN and a AutoLoss-guided GAN on CIFAR-10.*
 
-# Focus extraction {#focus}
+## Focus {#focus}
 
 [Paper]: /paper/autoLoss.pdf
 
