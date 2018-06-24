@@ -3,17 +3,20 @@ layout: page
 title: Projects
 ---
 
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+
 # **AutoLoss**
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
 
-**Abstract**
+## **Abstract**
+
 Many machine learning problems involve iteratively and alternately optimizing different task objectives with respect to different sets of parameters. Appropriately scheduling the optimization of a task objective or a set of parameters is usually crucial to the quality of convergence. In this paper, we present AutoLoss, a meta-learning framework that **automatically learns and determines the optimization schedule**. AutoLoss provides a generic way to represent and learn the discrete optimization schedule from metadata, allows for a dynamic and data-driven schedule in ML problems that involve alternating updates of different parameters or from different loss objectives.
 
-**Architecture**
+## **Architecture**
 
 <img src="/img/AutoLoss/architecture.png" width="100%" height="40%">
 
-**Results**
+## **Results**
 
 **1. Design the optimization schedule of L1 regularization**
 
