@@ -43,19 +43,40 @@ We did three set of experiments to evaluate the transferability of our meta-cont
 
 <img src="/img/AutoLoss/transfer.PNG" width="60%" height="40%">
 
-*Figure 4: (a) Comparing the MLP classification results for the data transfer experiments. DGS represents Dense Grid Search. (b) Comparing the final convergence (in term of <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a>) of randomly sampled DCGAN architectures trained with and without a trained meta-controller. Clearly, we see AutoLoss outperforms DCGAN in 16 out of 20 architectures. (c) The training progress comparison of a vanilla GAN and a AutoLoss-guided GAN on CIFAR-10.*
+>*Figure 4: (a) Comparing the MLP classification results for the data transfer experiments. DGS represents Dense Grid Search. (b) Comparing the final convergence (in term of <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a>) of randomly sampled DCGAN architectures trained with and without a trained meta-controller. Clearly, we see AutoLoss outperforms DCGAN in 16 out of 20 architectures. (c) The training progress comparison of a vanilla GAN and a AutoLoss-guided GAN on CIFAR-10.*
 
 ***Future Work***
 
 We are currently applying AutoLoss to several practical applications.
 
-**AutoDrive:** We have several experts to provide supervision signal to train a driving agent. However, all experts are imperfect. Our goal is to train a meta-controller to tell the task model which expert to use at each training step.
+**1. AutoDrive:** We have several experts to provide supervision signal to train a driving agent. However, all experts are imperfect. Our goal is to train a meta-controller to tell the task model which expert to use at each training step.
 
-**Curriculum Learning:** We use AutoLoss to automaticly design the syllabus.
+**2. Curriculum Learning:** We use AutoLoss to automaticly design the syllabus.
 
-**Multi-task Learning:** We use AutoLoss to automaticly design the schedule of training and knowledge transfering in multi-task learning process.
+**3. Multi-task Learning:** We use AutoLoss to automaticly design the schedule of training and knowledge transfering in multi-task learning process.
 
-## Focus {#focus}
+# Chinese Named Entity Recognition with Self-Attention {#t2t}
+Deeplycurious.ai, Beijing, 2017.9-2018.2
+
+***Abstract***
+
+We proposed an self-attention based sequence labeling model and applied it to a Chinese Named Entity Recognition task. Our model can directly capture the relationships between two tokens regardless of their distance. Our model outperforms state of the art on MSRA bakeoff3 dataset and achieves a better performance on the company's internal dataset.
+
+***Architecture***
+
+<img src="/img/t2t/architecture.png" width="60%" height="50%">
+
+>*Figure 5: The model has N idential layers (each contains a self-attention sub-layer and a feed forward sub-layer), a softmax classification layer with feed back mechanism (green arrows), and an object memory to store recognized entities (red arrows) and maintain global consistence (blue arrows).*
+
+***Results***
+
+<img src="/img/t2t/results.png" width="80%" height="30%">
+
+>*Figure 6: Compared with two baselines. (Dong et al, 2016. "Character-Based LSTM-CRT with Radical-Level Features for Chinese Named Entity Recognition." Lecture Notes in Computer Science)
+
+
+
+# Focus {#focus}
 
 
 
