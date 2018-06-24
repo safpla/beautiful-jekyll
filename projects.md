@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-subtitle: AutoLoss, Focus.
 ---
 
 # AutoLoss {#autoLoss}
