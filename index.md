@@ -19,12 +19,12 @@ I designed a reasoning module to handle the feature-conflict problem in document
 ## **Education**:
 I completed my bachelor degree in [Tsinghua] University in 2017. In my thesis, I developed and applied deep machine learning methods to biomedical applications. See more about my research in the [Projects] page.
 
-latest change[See more]
+latest [See more]
 
-[See more]: /projects.html
-[proj-autoloss]: /projects.html#autoLoss
-[proj-t2t]: /projects.html#t2t
-[proj-focus]: /projects.html#focus
+[See more]: /projects.md
+[proj-autoloss]: /projects.md#autoLoss
+[proj-t2t]: /projects.md#t2t
+[proj-focus]: /projects.md#focus
 [Projects]: /projects.md
 
 [SAILING LAB]: http://www.sailing.cs.cmu.edu/main/
