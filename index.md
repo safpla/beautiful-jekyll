@@ -23,6 +23,7 @@ I completed my bachelor degree in [Tsinghua] University in 2017. In my thesis, I
 [proj-autoloss]: /project.html#autoLoss
 [proj-t2t]: /project.html#t2t
 [proj-focus]: /project.html#focus
+[Projects]: /projects.html
 
 [SAILING LAB]: http://www.sailing.cs.cmu.edu/main/
 [deeplycurious.ai]: http://deeplycurious.ai/
