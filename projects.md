@@ -34,7 +34,7 @@ At each training step, meta-controller tells the task model whether to update th
 <img src="/img/AutoLoss/GAN_MNIST.PNG" width="100%" height="20%">
 >*Figure 3: The training progress (<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a> vs. epochs) of four best performed baselines compared with AutoLoss. If an instance does not improve for 20 Epochs, we terminate its training and regard it as converged.*
 
-**3. Transferability**
+**3. Transferability** {#research}
 
 We did three set of experiments to evaluate the transferability of our meta-controller.
 
