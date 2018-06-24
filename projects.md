@@ -64,7 +64,7 @@ We proposed an self-attention based sequence labeling model and applied it to a 
 
 ***Architecture***
 
-<img src="/img/t2t/architecture.png" width="70%" height=60%">
+<img src="/img/t2t/architecture.png" width="70%" height="60%">
 
 >*Figure 5: The model has N idential layers (each contains a self-attention sub-layer and a feed forward sub-layer), a softmax classification layer with feed back mechanism (green arrows), and an object memory to store recognized entities (red arrows) and maintain global consistence (blue arrows).*
 
@@ -74,12 +74,18 @@ We proposed an self-attention based sequence labeling model and applied it to a 
 
 >*Figure 6: Compared with two baselines. (Dong et al, 2016. "Character-Based LSTM-CRT with Radical-Level Features for Chinese Named Entity Recognition." Lecture Notes in Computer Science)*
 
-# Document Classification with Paragraph Reasoning and Hierarchical Supervision {#focus}
+# Document Classification with Paragraph Reasoning {#focus}
 Deeplycurious.ai, Beijing, 2017.9-2018.2
 
 ***Abstract***
 
+In document classification tasks, sometimes we need to deal with documnets that contain contradicting opinions. For example, a court verdict may contains plaintiff's claims and defendant's defenses which are usually contradictory to each other. Traditional deep learning methods, no matter CNN or RNN, usually take the document as a whole, neglect the contradiction between paragraphs. We proposed a document classification model with a paragraph reasoning module to solve feature conflicts between paragraphs. We use a hierarchical structure to construct our network. At sentence level, we use a CNN to extract the representation of each sentence. At paragraph level, we use the representation of sentences to make prediction about each paragraph. The network could be a CNN, RNN or simply pooling layer. At document level, predictions of all paragraphs are combined together by a resaoning module to give the final classification label.
 
+***Architecture***
+
+<img src="/img/t2t/architecture.png" width="80%" height="40%">
+
+>*Figure 7: The architecture of our model. The paragragh level network is simply a max pooling layer. The reasoning module here is a 2-layer fully-connected network. We also have label information about each sentence. To exploit this, we provide supervision not only at document level, but also at sentence level, i.e. the objective function is a linear combination of document level loss and sentence level loss.
 
 
 
