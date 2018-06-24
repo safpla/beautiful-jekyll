@@ -12,7 +12,6 @@ Many machine learning problems involve iteratively and alternately optimizing di
 **Architecture**
 
 <img src="/img/AutoLoss/architecture.png" width="100%" height="40%">
-![Figure 1](/img/AutoLoss/architecture.png)
 
 **Results**
 
@@ -20,14 +19,14 @@ Many machine learning problems involve iteratively and alternately optimizing di
 
 At each training step, meta-controller tells the task model whether to minimize the objective function (mse loss in d-ary regression and cross-entropy in MLP classification) or minimize L1-loss. Baseline is a linear combination of objective function and L1-loss.
 
-<img src="/img/autoLoss/l1_regularization.PNG" width="100%" height="35%">
->*Figure 2: AutoLoss reaches good convergence regardless of \\(\lambda\\) for both d-ary regression (left) and MLP classification (right) with L1 regularization.*
+<img src="/img/AutoLoss/l1_regularization.PNG" width="100%" height="35%">
+>*Figure 2: AutoLoss reaches good convergence regardless of $\lambda$ for both d-ary regression (left) and MLP classification (right) with L1 regularization.*
 
 **2. Design the optimization schedule of GAN on MNIST dataset**
 
 At each training step, meta-controller tells the task model whether to update the discriminator or to update the generator. Baseline models are vanilla GAN with pre-define ratio between updating steps of discriminator and generator. 
 
-<img src="/img/autoLoss/GAN_MNIST.PNG" width="100%" height="20%">
+<img src="/img/AutoLoss/GAN_MNIST.PNG" width="100%" height="20%">
 >*Figure 3: The training progress (\\(\mathcal{IS}\\) vs. epochs) of four best performed baselines compared with AutoLoss. If an instance does not improve for 20 Epochs, we terminate its training and regard it as converged.*
 
 **3. Transferability**
@@ -38,7 +37,7 @@ We did three set of experiments to evaluate the transferability of our meta-cont
 
 **Transfer to different data distributions.** We first train a meta-controller for a task model on one dataset. We then fix the parameters of the controller, and use it to guide the training of the same task model from scratch, but on other dataset with different distributions. We compare the training of AutoLoss guided model with vanilla one. We report the comparison results in Figure 4(a) and Figure4(c) on two tasks: (a) MLP classifier, that we train the controller using a dataset generated following a process. We then generate another three sets of synthetic samples using different specifications of the process. (c) GANs, where we first train a controller for digit generation on MNIST, and then use the controller to guide the training of the same GAN architecture on CIFAR-10.
 
-<img src="/img/autoLoss/transfer.PNG" width="100%" height="60%">
+<img src="/img/AutoLoss/transfer.PNG" width="100%" height="60%">
 *Figure 4: (a) Comparing the MLP classification results for the data transfer experiments. DGS represents Dense Grid Search. (b) Comparing the final convergence (in term of \\(\mathcal{IS}\\)) of randomly sampled DCGAN architectures trained with and without a trained meta-controller. Clearly, we see AutoLoss outperforms DCGAN in 16 out of 20 architectures. (c) The training progress comparison of a vanilla GAN and a AutoLoss-guided GAN on CIFAR-10.*
 
 
