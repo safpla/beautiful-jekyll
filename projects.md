@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About me
+title: Projects
 ---
 
-#**AutoLoss**
+# **AutoLoss**
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
 
 **Abstract**
@@ -12,7 +12,7 @@ Many machine learning problems involve iteratively and alternately optimizing di
 **Architecture**
 
 <img src="/img/autoLoss/architecture.png" width="100%" height="40%">
-
+![Figure 1](/img/autoLoss/architecture.png)
 **Results**
 
 **1. Design the optimization schedule of L1 regularization**
