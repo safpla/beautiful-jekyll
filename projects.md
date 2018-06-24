@@ -7,17 +7,17 @@ subtitle: AutoLoss, Focus.
 # AutoLoss {#autoLoss}
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
 
-###Abstract
+### Abstract
 
 Many machine learning problems involve iteratively and alternately optimizing different task objectives with respect to different sets of parameters. Appropriately scheduling the optimization of a task objective or a set of parameters is usually crucial to the quality of convergence. In this paper, we present AutoLoss, a meta-learning framework that **automatically learns and determines the optimization schedule**. AutoLoss provides a generic way to represent and learn the discrete optimization schedule from metadata, allows for a dynamic and data-driven schedule in ML problems that involve alternating updates of different parameters or from different loss objectives.
 
-###Architecture
+### Architecture
 
 <img src="/img/AutoLoss/architecture.png" width="60%" height="24%">
 
 >*Figure 1: AutoLoss Architecture*
 
-###Results
+### Results
 
 **1. Design the optimization schedule of L1 regularization**
 
@@ -45,7 +45,7 @@ We did three set of experiments to evaluate the transferability of our meta-cont
 
 *Figure 4: (a) Comparing the MLP classification results for the data transfer experiments. DGS represents Dense Grid Search. (b) Comparing the final convergence (in term of <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a>) of randomly sampled DCGAN architectures trained with and without a trained meta-controller. Clearly, we see AutoLoss outperforms DCGAN in 16 out of 20 architectures. (c) The training progress comparison of a vanilla GAN and a AutoLoss-guided GAN on CIFAR-10.*
 
-###Future Work
+### Future Work
 
 We are currently applying AutoLoss to several practical applications.
 
