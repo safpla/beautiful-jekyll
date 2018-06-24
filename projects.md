@@ -3,8 +3,8 @@ layout: page
 title: Projects
 subtitle: AutoLoss, Focus.
 ---
-{#autoLoss}
-## AutoLoss
+
+## AutoLoss {#autoLoss}
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
 
 **Abstract**
@@ -30,8 +30,6 @@ At each training step, meta-controller tells the task model whether to minimize 
 
 At each training step, meta-controller tells the task model whether to update the discriminator or to update the generator. Baseline models are vanilla GAN with pre-define ratio between updating steps of discriminator and generator. 
 
-{#t2t}
-
 <img src="/img/AutoLoss/GAN_MNIST.PNG" width="100%" height="20%">
 >*Figure 3: The training progress (<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a> vs. epochs) of four best performed baselines compared with AutoLoss. If an instance does not improve for 20 Epochs, we terminate its training and regard it as converged.*
 
@@ -47,6 +45,15 @@ We did three set of experiments to evaluate the transferability of our meta-cont
 
 *Figure 4: (a) Comparing the MLP classification results for the data transfer experiments. DGS represents Dense Grid Search. (b) Comparing the final convergence (in term of <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a>) of randomly sampled DCGAN architectures trained with and without a trained meta-controller. Clearly, we see AutoLoss outperforms DCGAN in 16 out of 20 architectures. (c) The training progress comparison of a vanilla GAN and a AutoLoss-guided GAN on CIFAR-10.*
 
+**Future Work**
+
+We are currently applying AutoLoss to several practical applications.
+
+**AutoDrive:** We have several experts to provide supervision signal to train a driving agent. However, all experts are imperfect. Our goal is to train a meta-controller to tell the task model which expert to use at each training step.
+
+**Curriculum Learning:** We use AutoLoss to automaticly design the syllabus.
+
+**Multi-task Learning:** We use AutoLoss to automaticly design the schedule of training and knowledge transfering in multi-task learning process.
 ## Focus {#focus}
 
 [Paper]: /paper/autoLoss.pdf
