@@ -20,7 +20,7 @@ I designed a reasoning module to handle the feature-conflict problem in document
 I completed my bachelor degree in [Tsinghua] University in 2017. In my thesis, I developed and applied deep machine learning methods to biomedical applications. See more about my research in the [Projects] page.
 
 [Projects]: /projects.html
-[proj-autoloss]: /project.html
+[proj-autoloss]: /project.html#research
 [proj-t2t]: /project.html
 [proj-focus]: /project.html
 
