@@ -72,8 +72,7 @@ We proposed an self-attention based sequence labeling model and applied it to a 
 
 <img src="/img/t2t/results.png" width="80%" height="30%">
 
->*Figure 6: Compared with two baselines. (Dong et al, 2016. "Character-Based LSTM-CRT with Radical-Level Features for Chinese Named Entity Recognition." Lecture Notes in Computer Science)
-
+>*Figure 6: Compared with two baselines. (Dong et al, 2016. "Character-Based LSTM-CRT with Radical-Level Features for Chinese Named Entity Recognition." Lecture Notes in Computer Science)*
 
 
 # Focus {#focus}
