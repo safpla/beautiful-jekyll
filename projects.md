@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{IS}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{IS}" title="\mathcal{IS}" /></a>
 
 # **AutoLoss**
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
@@ -23,7 +23,7 @@ Many machine learning problems involve iteratively and alternately optimizing di
 At each training step, meta-controller tells the task model whether to minimize the objective function (mse loss in d-ary regression and cross-entropy in MLP classification) or minimize L1-loss. Baseline is a linear combination of objective function and L1-loss.
 
 <img src="/img/AutoLoss/l1_regularization.PNG" width="100%" height="35%">
->*Figure 2: AutoLoss reaches good convergence regardless of $\lambda$ for both d-ary regression (left) and MLP classification (right) with L1 regularization.*
+>*Figure 2: AutoLoss reaches good convergence regardless of λ for both d-ary regression (left) and MLP classification (right) with L1 regularization.*
 
 **2. Design the optimization schedule of GAN on MNIST dataset**
 
