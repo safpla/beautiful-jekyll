@@ -11,8 +11,9 @@ Many machine learning problems involve iteratively and alternately optimizing di
 
 **Architecture**
 
-<img src="/img/autoLoss/architecture.png" width="100%" height="40%">
-![Figure 1](/img/autoLoss/architecture.png)
+<img src="/img/AutoLoss/architecture.png" width="100%" height="40%">
+![Figure 1](/img/AutoLoss/architecture.png)
+
 **Results**
 
 **1. Design the optimization schedule of L1 regularization**
