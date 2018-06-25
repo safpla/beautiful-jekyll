@@ -59,7 +59,7 @@ Deeplycurious.ai, Beijing, 2017.9-2018.2
 
 ***Abstract***
 
-We proposed an self-attention based sequence labeling model and applied it to a Chinese Named Entity Recognition task. Our model can directly capture the relationships between two tokens regardless of their distance. Our model outperforms state of the art on MSRA bakeoff3 dataset and achieves a better performance on the company's internal dataset.
+We proposed an self-attention based sequence labeling model and applied it to a Chinese Named Entity Recognition task. Our model can directly capture the relationships between two tokens regardless of their distance. Our model outperforms state of the art on MSRA bakeoff3 dataset and achieves a comparable result on the company's internal dataset while inferencing mush faster than bi-LSTM baseline.
 
 ***Architecture***
 
