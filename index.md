@@ -10,7 +10,7 @@ Reinforcement Learning, Meta-Learning, Curriculum Learning, Multi-task Learning,
 
 ## **Research Experience**
 **Research Intern**, [SAILING LAB], Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing.  
-I proposed a meta-learning framework, _AutoLoss_, that automatically learns and determines the schedule of optimization processes, which can improve the convergence of many tasks such as GAN, multi-task learning and curriculum learning. [See more][proj-autoloss].
+I proposed a meta-learning framework, _AutoLoss_, that automatically learns and determines the schedule of optimization processes, which can improve the convergence of iterative and alternate training such as GAN, multi-task learning and curriculum learning. [See more][proj-autoloss].
 
 **Algorithm Engineer**, [deeplycurious.ai], Beijing, 2017.9-2018.2  
 I developed an attention based sequence labeling model and applied it to a Named Entity Recognition task. [See more][proj-t2t].  
