@@ -32,4 +32,4 @@ I completed my bachelor degree in [Tsinghua] University in 2017. In my thesis, I
 [SAILING LAB]: http://www.sailing.cs.cmu.edu/main/
 [deeplycurious.ai]: http://deeplycurious.ai/
 [Tsinghua]: http://www.tsinghua.edu.cn/publish/thu2018en/index.html
-[Labortory of Auditory Neurophysiology]: http://wanglab.johnshopkins.edu/lab/WangLabWebsite/index.html
+[Laboratory of Auditory Neurophysiology]: http://wanglab.johnshopkins.edu/lab/WangLabWebsite/index.html
