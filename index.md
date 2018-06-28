@@ -16,7 +16,7 @@ I proposed a meta-learning framework, _AutoLoss_, that automatically learns and 
 I developed an attention based sequence labeling model and applied it to a Named Entity Recognition task. [See more][proj-t2t].  
 I designed a reasoning module to handle the feature-conflict problem in document classification tasks and applied hierarchical supervision to exploit label information of different granularities. [See more][proj-focus].
 
-**Research Intern**, [Laboratory of Auditory Neurophysiology], Johns Hopkins University, 2016.8-2017.5
+**Research Intern**, [Laboratory of Auditory Neurophysiology], Johns Hopkins University, 2016.8-2017.5  
 I developed an automatic recording and analyzing system for animal vocalization behavior study and applied deep learning methods to our analyzing algorithm. I tackled the commom engineering problems (e.g. insufficient data, unstable recording system, big individual variance) when applied deep learning to biomedical areas.
 
 ## **Education**:
