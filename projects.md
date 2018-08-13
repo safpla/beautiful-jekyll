@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-# AutoLoss {#autoLoss}
+# Project 1: AutoLoss {#autoLoss}
 SAILING LAB, Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing. [Paper]
 
 ***Abstract***
@@ -54,7 +54,7 @@ We are currently applying AutoLoss to several practical applications.
 
 **3. Multi-task Learning:** We use AutoLoss to automaticly design the schedule of training and knowledge transfering in multi-task learning process.
 
-# Chinese Named Entity Recognition with Self-Attention {#t2t}
+# Project 2: Chinese Named Entity Recognition with Self-Attention {#t2t}
 Deeplycurious.ai, Beijing, 2017.9-2018.2
 
 ***Abstract***
@@ -73,7 +73,7 @@ We proposed an self-attention based sequence labeling model and applied it to a 
 
 >*Figure 6: Compared with two baselines. (Dong et al, 2016. "Character-Based LSTM-CRT with Radical-Level Features for Chinese Named Entity Recognition." Lecture Notes in Computer Science)*
 
-# Document Classification with Paragraph Reasoning {#focus}
+# Project 3: Document Classification with Paragraph Reasoning {#focus}
 Deeplycurious.ai, Beijing, 2017.9-2018.2
 
 ***Abstract***
