@@ -3,13 +3,11 @@ layout: page
 title: Haowen Xu
 ---
 
-**My name is Haowen Xu (徐浩文), I'm currently in my gap year and looking for a short-term job or intern opportunity for the following year (2018.8-2019.08)**
-
 ## **Research Interests**:
 Reinforcement Learning, Meta-Learning, Curriculum Learning, Multi-task Learning, Sequential Decision Making, Graphical Models, Interpretable ML. Applications in healthcare, biology, medicine, natural language and general AI.
 
 ## **Research Experience**
-**Research Intern**, [SAILING LAB], Carnegie Mellon University, 2018.3-. Advisor: Prof. Eric Xing.  
+**Research Intern**, [SAILING LAB], Carnegie Mellon University, 2018.7-. Advisor: Prof. Eric Xing.  
 I proposed a meta-learning framework, _AutoLoss_, that automatically learns and determines the schedule of optimization processes, which can improve the convergence of iterative and alternate training such as GAN, multi-task learning and curriculum learning. [See more][proj-autoloss].
 
 **Algorithm Engineer**, [deeplycurious.ai], Beijing, 2017.9-2018.2  
