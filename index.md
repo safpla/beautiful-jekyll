@@ -23,12 +23,16 @@ I developed an automatic recording and analyzing system for animal vocalization 
 ## **Education**:
 I am currently a Master student in CS&E in Georgia Tech. I completed my bachelor degree in [Tsinghua] University in 2017. In my thesis, I developed and applied deep machine learning methods to biomedical applications. See more about my research in the [Projects] page.
 
+## **Other materials**:
+[Word Embedding Review]
 
 [See more]: /projects.md
 [proj-autoloss]: /projects.md#autoLoss
 [proj-t2t]: /projects.md#t2t
 [proj-focus]: /projects.md#focus
 [Projects]: /projects.md
+[Word Embedding Review]: /paper/Review-Word-Embedding.pdf
+[1]: /paper/autoLoss.pdf
 
 [SAILING LAB]: http://www.sailing.cs.cmu.edu/main/
 [deeplycurious.ai]: http://deeplycurious.ai/
