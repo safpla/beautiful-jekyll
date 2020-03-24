@@ -10,7 +10,10 @@ Reinforcement Learning, Meta-Learning, Curriculum Learning, Multi-task Learning,
 [1] **Haowen Xu**, Hao Zhang, Zhiting Hu, Xiaodan Liang, Ruslan Salakhutdinov, Eric Xing. AutoLoss: Learning Discrete Schedule for Alternate Optimization. ***ICLR 2019***
 
 ## **Research Experience**
-**Research Intern**, [SAILING LAB], Carnegie Mellon University, 2018.3-2018.7. Advisor: Prof. Eric Xing.  
+**Research Assistant**, [Machine Learning Group], Georgia Institute of Technology, 2020.1-present. Advisor: Prof. Song Le.
+I am working on end2end protein sequence alignment via deep leanring.
+
+**Research Assistant**, [SAILING LAB], Carnegie Mellon University, 2018.3-2018.7. Advisor: Prof. Eric Xing.  
 I proposed a meta-learning framework, _AutoLoss_, that automatically learns and determines the schedule of optimization processes, which can improve the convergence of iterative and alternate training such as GAN, multi-task learning and curriculum learning. [See more][proj-autoloss].
 
 **Algorithm Engineer**, [deeplycurious.ai], Beijing, 2017.9-2018.2  
