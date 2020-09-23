@@ -6,16 +6,22 @@ title: Haowen Xu
 ## **Research Interests**:
 Reinforcement Learning, Meta-Learning, Curriculum Learning, Multi-task Learning, Sequential Decision Making, Graphical Models, Interpretable ML. Applications in healthcare, biology, medicine, natural language and general AI.
 
+---
+
 ## **Publications**:
 1 Xinshi Chen, Yan Zhu, **Haowen Xu**, Muhan Zhang, Liang Xiong, Le Song.Learning Two-Time-Scale Representations For Large Scale Recommendations. Under Review.
 
 [2] **Haowen Xu**, Hao Zhang, Zhiting Hu, Xiaodan Liang, Ruslan Salakhutdinov, Eric Xing. AutoLoss: Learning Discrete Schedule for Alternate Optimization. ***[ICLR2019]***
+
+---
 
 ## **Work Experience**
 ### **Deeplycurious.ai, Beijing**
 *Algorithm Engineer in Natural Language Processing (NLP) team* , 09/2017 - 02/2018
 * Designed an attention based sequence labeling model, which achieves state-of-the-art results on NER taskon benchmart dataset, reducing the inference time of company’s online service product by 90%.
 * Proposed a deep architecture with paragraph reasoning modules for document classification, which takesadvantage of both symbolic reasoning and deep nerual nets.
+
+---
 
 ## **Research Project**
 ### **Protein sequence alignment via deep learning and reasoning**
